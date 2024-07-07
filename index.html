@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrendWeave</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .navbar {
+      background-color: black;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .jumbotron {
+      background: url('mall2.jpg') center center;
+      background-size: cover;
+      height: 600px;
+      color: black;
+    }
+
+    .section-title {
+      margin: 50px 0 20px;
+      text-align: center;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+    .card-body {
+      text-align: center;
+    }
+
+    .contact-section {
+      background-color: black;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .footer-links a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">DINING DELIGHT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mens-wear">CROCKERY SET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#womens-wear">COFFEE CUP SET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kids-wear">WINE GLASSES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#accessories">CUTLERY SET</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footwear">KNIVES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <h1>Welcome to DiningDelight</h1><br>
+    <p>Indulge in Dining Excellence.</p>
+    <img src="C:\Users\hp\Pictures\Saved Pictures\dinnerset_2_84c4e8ab-70c6-4ec2-a1d6-e421a5daccf5.webp" height="460"
+      width="700">
+  </div>
+
+  <!-- About Us Section -->
+  <div id="about-us" class="container mt-5">
+    <h2 class="section-title text-center"><i class="fas fa-info-circle"></i> ABOUT US</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="C:\Users\hp\Pictures\Saved Pictures\about2.jpeg" class="img-fluid" alt="About Us Image" height="200">
+      </div>
+      <div class="col-md-6">
+        <p class="lead">Welcome to DiningDelight, your number one source for high-quality crockery sets. We're dedicated
+          to providing you the best of dining ware, with a focus on quality, durability, and unique designs.Founded in
+          2020, Elegant Crockery has come a long way from its beginnings. When we first started out, our passion for
+          elegant and functional tableware drove us to start our own business.
+          We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or
+          comments, please
+          don't hesitate to contact us.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Men's Wear Section -->
+  <div id="mens-wear" class="container mt-5">
+    <h2 class="section-title">DINNER SET</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="A1j0D1DpkXL.jpg" class="card-img-top" alt="Dinner set Collection 1">
+          <div class="card-body">
+            <h5 class="card-title">Dinner Set Collection</h5>
+            <p class="card-text">Explore perfect plates for perfect moments.</p>
+            <p class="card-text"><strong>Price: $79.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Men\'s Summer Collection 1')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="hello.jpg" class="card-img-top" alt="Dinner set Collection 2">
+          <div class="card-body">
+            <h5 class="card-title">Dinner Set Collection</h5>
+            <p class="card-text">Explore perfect plates for perfect moments.</p>
+            <p class="card-text"><strong>Price: $89.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Men\'s Summer Collection 2')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="hi.jpg" class="card-img-top" alt="Dinner set Collection 3" height="350">
+          <div class="card-body">
+            <h5 class="card-title">Dinner Set Collection</h5>
+            <p class="card-text">Explore perfect plates for perfect moments.</p>
+            <p class="card-text"><strong>Price: $99.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Men\'s Summer Collection 3')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Women's Wear Section -->
+  <div id="womens-wear" class="container mt-5">
+    <h2 class="section-title">COFFEE CUP SET</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="download.jpeg" class="card-img-top" alt="Coffee cup Collection 1">
+          <div class="card-body">
+            <h5 class="card-title">Coffee Cup Collection</h5>
+            <p class="card-text">Discover new, trendy and unique coffee cup sets.</p>
+            <p class="card-text"><strong>Price: $49.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Women\'s Summer Collection 1')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="3.webp" class="card-img-top" alt="Coffee cup Collection 2" height="280">
+          <div class="card-body">
+            <h5 class="card-title">Coffee Cup Collection</h5>
+            <p class="card-text">Discover new, trendy and unique coffee cup sets.</p>
+            <p class="card-text"><strong>Price: $59.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Women\'s Summer Collection 2')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="2.webp" class="card-img-top" alt="Coffee cup Collection 3" height="280">
+          <div class="card-body">
+            <h5 class="card-title">Coffee Cup Collection</h5>
+            <p class="card-text">Discover new, trendy and unique coffee cup sets.</p>
+            <p class="card-text"><strong>Price: $69.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Women\'s Summer Collection 3')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kids Wear Section -->
+  <div id="kids-wear" class="container mt-5">
+    <h2 class="section-title"></i> WINE GLASSES</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Desktop\crystal-wine-glass-glass-set-200-ml-crom-original-imafnaffeezvkp98.webp"
+            class="card-img-top" alt="Kids Summer Collection 1">
+          <div class="card-body">
+            <h5 class="card-title">Glass Collection</h5>
+            <p class="card-text">Raise your glass to elegance.</p>
+            <p class="card-text"><strong>Price: $29.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Kids Summer Collection 1')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\ly.jpg" class="card-img-top" alt="Kids Summer Collection 2"
+            height="300">
+          <div class="card-body">
+            <h5 class="card-title">Glass Collection</h5>
+            <p class="card-text">Raise your glass to elegance.</p>
+            <p class="card-text"><strong>Price: $39.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Kids Summer Collection 2')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\7251-UM-760-1-min-scaled.jpg" class="card-img-top"
+            alt="Kids Summer Collection 3" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Glass Collection</h5>
+            <p class="card-text">Raise your glass to elegance.</p>
+            <p class="card-text"><strong>Price: $49.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Kids Summer Collection 3')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accessories Section -->
+  <div id="accessories" class="container mt-5">
+    <h2 class="section-title"><i class="fas fa-scarf"></i> Cutlery Set</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\download.jpeg" class="card-img-top" alt="Accessory 1"
+            Height="300">
+          <div class="card-body">
+            <h5 class="card-title">Cutlery Set</h5>
+            <p class="card-text">Cutlery that complimentes your cuisine.</p>
+            <p class="card-text"><strong>Price: $19.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Stylish Scarf')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\images (3).jpeg" class="card-img-top" alt="Accessory 2"
+            height="300">
+          <div class="card-body">
+            <h5 class="card-title">Cutlery Set</h5>
+            <p class="card-text">Cutlery that compliments your cuisine.</p>
+            <p class="card-text"><strong>Price: $29.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Fashionable Hat')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\luxury-black-cutlery-set-4-pcs-722_800x.webp"
+            class="card-img-top" alt="Accessory 3" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Cutlery Set</h5>
+            <p class="card-text">Cutlery that compliments your cuisine.</p>
+            <p class="card-text"><strong>Price: $59.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Elegant Watch')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="C:\Users\hp\Pictures\Saved Pictures\Stainless-Steel-Luxury-Flatware-Silver-Gold-Table-Spoon-Fork-Knife-Cutlery-Set.jpg"
+            class="card-img-top" alt="Accessory 4" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Cutlery Set</h5>
+            <p class="card-text">Cutlery that compliments your cuisine.</p>
+            <p class="card-text"><strong>Price: $39.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Classic Sunglasses')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footwear Section -->
+  <div id="footwear" class="container mt-5">
+    <h2 class="section-title"></i>Knives</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\download (1).jpeg" class="card-img-top" alt="Footwear 1"
+            height="300">
+          <div class="card-body">
+            <h5 class="card-title">Kitchen Knives</h5>
+            <p class="card-text">The heart of your kitchen.</p>
+            <p class="card-text"><strong>Price: $49.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Casual Shoes')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\download (2).jpeg" class="card-img-top" alt="Footwear 2"
+            height="300">
+          <div class="card-body">
+            <h5 class="card-title">Kitcen Knives</h5>
+            <p class="card-text">The heart of your kitchen.</p>
+            <p class="card-text"><strong>Price: $79.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Formal Shoes')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="C:\Users\hp\Pictures\Saved Pictures\images (4).jpeg" class="card-img-top" alt="Footwear 3"
+            height="300">
+          <div class="card-body">
+            <h5 class="card-title">Kitchen Knives</h5>
+            <p class="card-text">The heart of your kitchen.</p>
+            <p class="card-text"><strong>Price: $59.99</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Sport Shoes')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Contact Section -->
+  <div id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-envelope"></i> Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <p>Have a question or feedback? We'd love to hear from you!</p>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-links text-center py-4">
+    <div class="container">
+      <p>
+        <a href="#">Terms of Service</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Accessibility</a>
+      </p>
+      <p>© 2024 DiningDelight. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function addToCart(item) {
+      alert('Your item ' + item + ' is added to cart!');
+    }
+  </script>
+</body>
+
+</html>
